@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f0f0f0; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .metric-box { 
+            background: white; 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .metric-value { font-size: 2em; font-weight: bold; color: #333; }
+        .metric-label { font-size: 1.2em; color: #666; margin-top: 10px; }
+        .active-users .metric-value { color: #4CAF50; }
+        .total-deployments .metric-value { color: #2196F3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        
+        <div class="metric-box active-users">
+            <div class="metric-value">5</div>
+            <div class="metric-label">Active Users</div>
+        </div>
+        
+        <div class="metric-box total-deployments">
+            <div class="metric-value">25</div>
+            <div class="metric-label">Total Deployments</div>
+        </div>
+    </div>
+</body>
+</html>
