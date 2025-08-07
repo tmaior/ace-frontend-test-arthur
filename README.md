@@ -18,3 +18,32 @@ npm start
 # Development mode
 npm run dev
 ```
+
+## React Migration
+
+This project has been migrated to React! The dashboard is now a React component.
+
+### React Project Structure
+
+- `src/Dashboard.js` - Main dashboard React component (refactored from dashboard.html)
+- `src/index.js` - Application entry point that renders the Dashboard
+- `public/index.html` - HTML template for React app
+- `package.json` - Updated with React dependencies
+
+### React Development
+
+```bash
+# Install React dependencies
+npm install
+
+# Start React development server
+npm start
+
+# Build for production
+npm run build
+
+# Run tests
+npm test
+```
+
+The React application will be available at `http://localhost:3000` with hot reload.
